@@ -1,0 +1,4 @@
+a = int(6)
+b = float(0.75)
+square = a * b
+print(square)
