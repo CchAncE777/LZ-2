@@ -1,0 +1,4 @@
+a = int(input('ВВедите a'))
+b = int(input('ВВедите b'))
+c = int(input('ВВедите c'))
+D = b**2
