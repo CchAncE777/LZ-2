@@ -1,0 +1,6 @@
+PI = 3.14
+r = int(input('Введите радиус круга'))
+square = PI * r ^ 2
+circle_length = 2 * PI * r
+print(square)
+print(circle_length)
