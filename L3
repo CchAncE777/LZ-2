@@ -1,4 +1,4 @@
-a = int(6)
-b = float(0.75)
+a = 6
+b = 1.5
 square = a * b
 print(square)
