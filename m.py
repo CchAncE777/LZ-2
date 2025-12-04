@@ -1,5 +1,3 @@
-list = [1]
-
 def simp(n, i, list):
     if list[-1] == n:
         return list
@@ -13,6 +11,3 @@ def simp(n, i, list):
         else: 
             print(list)
     return simp(n, i+1, list)
-    
-
-simp(666, 2, list)

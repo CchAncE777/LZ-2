@@ -1,4 +1,7 @@
+import time
+
 LIST = []
+start = time.time()
 
 def simp(n, LIST):
     if n == 1:
@@ -10,3 +13,5 @@ def simp(n, LIST):
                 return simp(int(n/i), LIST)
             
 print(simp(666, LIST))
+delta = time.time() - start
+print(delta)
