@@ -1,0 +1,25 @@
+l = [3, 6, 9, 11, 17, 29, 33, 52, 69]
+jump = int(len(l)**(1/2))
+iskomoe = int(input('Введите число: '))
+index = 0
+is_found = False
+
+for i  in range(0, len(l), jump):
+    if iskomoe <l[i]:
+        for j in range(i-len(l), i):
+            if l[j] == iskomoe:
+                index = j
+                is_found = True
+                break
+    if l[index] == iskomoe:
+         break
+for j in range(i, len(l)):
+            if l[j] == iskomoe:
+                index = j
+                is_found = True
+                break
+
+if is_found:
+    print(index)
+else:
+     print('Not found')
